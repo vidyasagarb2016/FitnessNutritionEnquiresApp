@@ -1,0 +1,13 @@
+name = "forma-desk"
+main = "src/worker.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# `npm run deploy` replaces REPLACE_ME with the D1 database in your Cloudflare account.
+[[d1_databases]]
+binding = "DB"
+database_name = "forma-desk"
+database_id = "REPLACE_ME"
+
+[vars]
+LEARN_EPSILON = "0.08"

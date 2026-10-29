@@ -1,0 +1,15 @@
+{
+  "name": "forma-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-learning fitness and nutrition enquiry agent for web, WhatsApp, and phone.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/node-server.js",
+    "test": "node --test",
+    "deploy": "node scripts/deploy.mjs"
+  }
+}
